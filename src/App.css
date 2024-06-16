@@ -1,0 +1,212 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-wrapper {
+  width: 100%;
+}
+
+/*sidebar*/
+.sidebar {
+  min-height: 100vh;
+  /* position: sticky !important; */
+}
+
+.ps-collapsed.sidebar .css-dip3t8 {
+  padding: 0;
+}
+
+.sidebar .css-dip3t8 {
+  background-color: #292a3a;
+  padding: 25px 10px;
+}
+
+.sidebar .css-dip3t8 a {
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+.ps-menu-label svg {
+  margin-right: 5px;
+}
+
+.sidebar .css-dip3t8 a:hover {
+  color: #a6a6b0;
+  background-color: transparent;
+}
+
+.btn-toggle svg {
+  width: 25px;
+  height: 25px;
+}
+
+.btn-toggle:active {
+  border: 0;
+}
+
+.mainLogo {
+  padding: 0 12px 10px;
+}
+
+.navbar {
+  background-color: #ddd;
+}
+
+.app-wrapper .header-wrapper {
+  padding: 15px;
+}
+
+/*login*/
+span.sr-only
+{
+  display: none;
+}
+.loginWrapper {
+  background: #41464b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  background: #fff;
+  padding: 50px 25px;
+  box-shadow: 0 0 7px rgb(0 0 0 / 50%);
+  border-radius: 10px;
+}
+
+form .required {
+  color: #f00;
+}
+
+.validationError {
+  color: #f00;
+}
+
+/*program*/
+.tableDropdown .dropdown-toggle {
+  background: transparent;
+  color: #000;
+  border: 0;
+}
+
+.tableDropdown a {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  display: block;
+}
+
+.tableDropdown .dropdown-toggle::after {
+  content: none;
+}
+
+.tableDropdown .dropdown-toggle:active,
+.tableDropdown .dropdown-toggle:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+  border: 0;
+}
+
+.dropdown-item:active {
+  background-color: transparent !important;
+}
+
+button.tableDeleteBtn {
+  border: 0;
+  padding: 0;
+}
+
+/*programSummary*/
+.note {
+  color: rgb(76, 151, 176);
+  font-size: 1rem;
+}
+
+.inputFields {
+  font-weight: 700;
+  padding-left: 0.2rem;
+}
+
+.required-field::after {
+  content: " *";
+  color: red;
+}
+
+/*accordion*/
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  color: black;
+  box-shadow: none;
+}
+
+/*logo-upload*/
+
+.allLogos {
+  height: 100px;
+}
+
+.allLogosWrapper {
+  border: 6px #ccc solid;
+  border-radius: 6px;
+}
+
+.selected {
+  border: 3px solid rgb(12, 12, 40);
+}
+
+.btn-group .btn {
+  border-radius: 0;
+}
+
+.btn-outline-secondary {
+  border: none;
+}
+
+
+.selectedLogo {
+  max-width: 60px;
+  max-height: 40px;
+}
+
+.dropzone {
+  border: 2px #333 dotted;
+  border-radius: 6px;
+  text-align: center;
+  padding: 5px 2px;
+}
+
+.dropzone p {
+  margin: 3px;
+}
+
+.acc-btn {
+  cursor: pointer;
+}
+
+.vhr {
+  width: 1px;
+  height: 17px;
+  background: gray;
+  display: inline-block;
+  margin: -3px 2px -3px 2px;
+}
+
+.centerModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 800px) {
+  .header-wrapper {
+    padding: 10px !important;
+  }
+}
